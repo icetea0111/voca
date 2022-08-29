@@ -1,0 +1,39 @@
+.wrap { max-width:800px; margin:0 auto; }
+.header {
+    h1 { float:left; margin:0; }
+    .menu { 
+        float:right; 
+        padding-top:30px;
+        a {
+            display:inline-block;
+            width:120px;
+            margin:0 5px;
+            line-height:40px;
+            background:#000; 
+            border:1px solid #000; 
+            color:#fff;
+            text-decoration:none;
+        }
+    }
+}
+.list_day {
+    clear:both;
+    padding-top:20px;
+    border-top:1px solid #000;
+    li {
+        display:inline-block;
+        margin:0 10px;
+    }
+}
+.word_list {
+    clear:both;
+    width:300px;
+    margin:0 auto;
+    border-collapse:collapse;
+    padding-top:20px;
+    border:1px solid #000;
+
+    td {
+        border:1px solid #000;
+    }
+}
